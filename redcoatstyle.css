@@ -1,0 +1,130 @@
+*{
+    
+    box-sizing: border-box;
+    margin:0;
+    padding: 0px;
+    font-family: Raleway, sans-serif;
+}
+.containerparent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-height: 20px;
+}
+.containerchild{
+
+    margin: 10px;
+    min-width:100px;
+}
+.menucontainerparent{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+max-width: 100%;
+margin-left: 10px;
+}
+.menucontainerchild{
+min-width:100px;
+margin:5px;
+
+}
+
+
+.logostyle{
+    width: 400px;
+    max-width: 100%;
+    padding-bottom:0px;
+    padding-top:20px;
+    padding-right: 20px;
+    padding-left:20px;
+}
+.curtainstyle{
+    background: linear-gradient(rgba(60,46,51, 0.3),rgba(60,46,51, 0.3)),
+    no-repeat center/cover url(curtain.png); margin-top: 5px; padding: 20px;
+}
+.homestyle{
+    background-color: #32c2e33;   
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;                
+    background-image:linear-gradient(rgba(60,46,51, 0.3),rgba(60,46,51, 0.3));
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding:1px 10px;
+    border-color: d8c29b;
+}
+.bannerstyle{
+    background: linear-gradient(rgba(60,46,51, 0.3),rgba(60,46,51, 0.3)),
+    no-repeat center/cover url(Banner.png); padding: 20px;padding-top: 40px;
+}
+.bodystyle{
+    font-family: Raleway, sans-serif;
+    font-size: 1rem;
+    color: #3c2e33;
+    margin: 10px;
+    margin-left:20px;
+}
+.liststyle{
+    font-family: Barlow, sans-serif;
+    font-size: 1rem;
+    color: #3c2e33;
+    padding-left:10px;
+    
+}
+.menustyle{
+    font-family: Raleway, sans-serif;
+    font-size: 0.8rem;
+    padding 5px;
+    text-decoration: none;
+    color: #3c2e33;
+            
+}
+.hyperlinkstyle{
+    text-decoration: none;
+    color: #32c2e33;
+}
+.heading1{
+    font-size: 1.8rem;
+    color: #5a262a;
+    font-weight:bold;
+    font-family: Raleway, sans-serif;
+    margin: 20px;
+}
+.heading2{
+    font-size: 1.2rem;
+    color: #653549;
+    font-weight:bold;
+    font-family: Raleway, sans-serif;
+    margin: 10px;
+    margin-left:20px;
+}
+.captionlarge{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Raleway, sans-serif;
+    text-align: center;  
+    padding=20px; 
+}
+.captionsmall{
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Raleway, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+.buttonstyle{
+    background-color:#d8c29b;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    border-color: #d8c29b;
+}
+.floatright{
+    float:right;
+}
